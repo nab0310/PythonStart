@@ -2,11 +2,11 @@ import praw
 
 basePlaylistURL = "http://www.youtube.com/watch_videos?video_ids="
 
-reddit = praw.Reddit(client_id= '',
-                    client_secret='',
-                    password= '',
-                    user_agent= '',
-                    username= '')
+reddit = praw.Reddit(client_id= 'Ja128FF6XxyzWg',
+                    client_secret='Lw1VYSTkFGP6VG8VavKgovG18cQ',
+                    password= 'YTPlaylists',
+                    user_agent= 'test crawler',
+                    username= 'youTubePlaylistMaker')
 
 print(reddit.user.me())
 
