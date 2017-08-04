@@ -1,0 +1,5 @@
+reddit = praw.Reddit(client_id= 'Ja128FF6XxyzWg',
+                    client_secret='Lw1VYSTkFGP6VG8VavKgovG18cQ',
+                    password= 'YTPlaylists',
+                    user_agent= 'test crawler',
+                    username= 'youTubePlaylistMaker')
